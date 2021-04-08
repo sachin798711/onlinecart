@@ -1,0 +1,124 @@
+* * {
+  padding: 0;
+  margin: 0;
+  
+  
+}
+
+.navbar, .navbar-dark, .bg-primary
+{
+  
+  background-color: rgb(36, 13, 238);
+  max-width: 100%;
+  font-size: 50px;
+}
+.ab{
+
+ font-size: 35px;
+ color: white;
+}
+.form-inline{
+  text-align: right;
+  margin-right: 220px;
+
+  
+}
+.form-control, .mr-sm-2{
+  
+  margin-bottom: -15px;
+  margin-left: 10px;
+  font-size: 20px;
+  width: 100%;
+}
+.btn, .btn-outline-light, .my-2, .my-sm-0, .bg-success{
+  font-size: 20px;
+  cursor: pointer;
+  color: brown;
+  margin-right: -80px;
+  
+  
+  
+}
+.img{
+  
+  max-width: 140%;
+  
+  
+
+  
+}
+.cart, .largenav, .col-sm-2{
+  align-items: center;
+  text-align:right;
+  font-size: 25px;
+  max-width: 100%;
+  margin-top: -30px;
+  margin-left: 0px;
+}
+
+
+/*------------------------card-----*/
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1.9s;
+  transform-style: preserve-3d;
+  box-shadow: 0 15px 81px 0 rgba(0,0,0,0.2);
+  
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  
+}
+
+.flip-card-front {
+  background-color: white);
+  color: black;
+  max-width: 100%;
+  display: block;
+
+  
+}
+
+.flip-card-back {
+  background-color:white;
+  color: rgb(3, 7, 216);
+  transform: rotateY(180deg);
+  font-size: 22px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(158, 185, 241);
+  color: rgb(245, 10, 10);
+}
+.sk{
+font-size: 40px;
+color:white;
+text-decoration: none;
+
+
+}
+
